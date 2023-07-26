@@ -18,6 +18,8 @@ module.exports = function (config) {
     // fabavo7711@wiemei.com
     // Test@123
     // https://trial-5168903.okta.com/
+    //     tom@test.com
+    // 1xKGZz6fjhmWeR0MBAD0
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, './coverage/my-app'),
       reports: ['html', 'lcovonly', 'text-summary'],
