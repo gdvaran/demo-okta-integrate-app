@@ -1,6 +1,9 @@
-<nav class="navbar bg-body-tertiary">
+<nav class="navbar bg-secondary" data-bs-theme="dark">
   <div class="container-fluid navbar-brand">
-    <span class="navbar-brand mb-0 h1">Demo Okta Application</span>
+    <a class="navbar-brand mb-0 h1" href="#">Demo Okta Application</a>
     <button class="btn btn-primary" (click)="signIn()">SignIn</button>
   </div>
 </nav>
+<div class="continer-fluid">
+  <router-outlet></router-outlet>
+</div>
