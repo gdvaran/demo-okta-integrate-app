@@ -9,7 +9,7 @@ import { CallbackComponent } from './container/callback/callback.component';
 
 const oktaAuth = new OktaAuth({
   issuer: 'https://trial-5168903.okta.com/oauth2/default',
-  clientId: '0oa6l1xtcaGFiuhYY697',
+  clientId: '0oa6m016dxOoGsgFK697',
   redirectUri: 'https://stackblitz-starters-kktazf.stackblitz.io/login/callback',
 });
 
